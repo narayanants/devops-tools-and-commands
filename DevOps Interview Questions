@@ -1,0 +1,155 @@
+1) How wil you take backup copy of Jenkins?
+A) By taking the backup of the Jenkins Home Folder using echo $JENKINS_HOME or using the /var/lib/jenkins directory
+
+2) What is the Unix command to find the pid of running process?
+A) ps -p 3095
+
+3) Attributes available in the filedescriptor objects
+A) File descriptors are bound to a process ID.
+We know most famous file descriptors are 0, 1 and 2. 0 corresponds to STDIN, 1 to STDOUT, and 2 to  STDERR.
+
+4) How to split a file with 1000 lines into 10 files of 100 lines
+A) split -l 1000 test.txt
+
+5) What is a resource in chef?
+A) Chef resource represents a piece of the operating system at its desired state.
+
+6) What are the components of chef software?
+A) Chef Workstation
+   Chef Infra client Nodes
+   Chef Infra server
+
+7) How to find number of open file limit per process?
+A) /proc/pid/limits
+
+8) How to Squash commits into one with Git?
+A) git rebase --interactive <commit-hash>
+
+
+9) What is a Docker Image?
+A) An Docker image is a blueprint for the Docker Container. A Docker Image is a lightweight, standalone, executable package of software that includes everything needed to run an application
+
+10) Do I loose my data when docker container exits?
+A) Yes, once your container ceases to exist or you restart it, the data will be lost. But that can be easily fixed if you use persistent volumes to store your data
+
+11) Which of the following are not stored in INODE?
+A) Inodes do not contain its hardlink names, only other file metadata. (ls -i)
+
+
+13) How to find a port is used in a running process
+A) netstat -tulpn | grep LISTEN
+
+14) What is Kubernetes?
+A) Kubernetes is an open source project that allows you to deploy and manage multi-container applications at scale.
+
+15) What is the basic unit of entity in Kubernetes?
+A) A Pod is the basic execution unit of a Kubernetes.
+
+16) What can be accessed outside a Kubernetes Cluster API?
+A)  ClusterIP
+    NodePort
+    LoadBalancer
+
+17) How to check RAM Usage in Linux?
+A) free -m
+
+12) Find the No of CORES in the CPU in Linux?
+A) nproc --all or lscpu
+
+18) What is a Docker Container?
+A) A container is a standard unit of software that packages up code and all its dependencies so the application runs quickly and reliably from one computing environment to another. Build Ship Run is the motto of Docker
+
+19) What is a Docker Registry?
+A) A Docker registry is organized into Docker repositories , where a repository holds all the versions of a specific image
+
+20) Which are the top DevOps tools? Which tools have you worked on?
+A) The most popular DevOps tools are mentioned below:
+
+    Git : Version Control System tool
+    Jenkins : Continuous Integration tool
+    Selenium : Continuous Testing tool
+    Puppet, Chef, Ansible : Configuration Management and Deployment tools
+    Nagios : Continuous Monitoring tool
+    Docker : Containerization tool
+    Kubernetes: Container Orchestration
+
+21) What is the most important thing DevOps helps us achieve?
+A) the most important thing that DevOps helps us achieve is to get the changes into production as quickly as possible while minimizing risks in software quality assurance and compliance. 
+
+22) What is Git?
+A) Git is a Distributed Version Control system (DVCS)
+
+23) In Git how do you revert a commit that has already been pushed and made public?
+A) git rebase -i <after-this-commit>
+
+24) How will you know in Git if a branch has already been merged into master?
+A) git branch -merged
+
+25) Mention some of the useful plugins in Jenkins.
+A)  Maven 2 project
+    Amazon EC2
+    HTML publisher
+    Copy artifact
+    Join
+    Green Balls
+    ThinBackup
+
+26) How will you secure Jenkins?
+A)  Ensure global security is on.
+    Ensure that Jenkins is integrated with my company’s user directory with appropriate plugin.
+    Ensure that matrix/Project matrix is enabled to fine tune access.
+    Automate the process of setting rights/privileges in Jenkins with custom version controlled script.
+    Limit physical access to Jenkins data/folders.
+    Periodically run security audits on same.
+
+27) How to automate Testing in DevOps lifecycle?
+A) Source code => Repo => Jenkins => Selenium
+
+28) What are the key elements of Continuous Testing tools?
+A)  Risk Assessment
+    Policy Analysis
+    Requirements Traceability
+    Advanced Analysis
+    Test Optimization
+    Service Virtualization
+
+29) What are the Testing types supported by Selenium
+A) Function and Regression Testing
+
+30) What do you understand by “Infrastructure as code”? How does it fit into the DevOps methodology? What purpose does it achieve?
+A) Infrastructure as Code (IAC) is a type of IT infrastructure that operations teams can use to automatically manage and provision through code, rather than using a manual process.
+
+31) Which among Puppet, Chef, SaltStack and Ansible is the best Configuration Management (CM) tool? Why?
+A)  Puppet - Oldest and Mature CM tool (Ruby)
+    Chef - can be customized by those who know the language (Ruby)
+    Ansible - very secure option since it uses Secure Shell
+    SaltStack - python based open source CM tool made for larger businesses
+    - Configuration Management tool which is used to automate administration tasks.
+
+32) What do you mean by recipe in Chef?
+A)  A Recipe is a collection of Resources that describes a particular configuration or policy.
+    A Recipe describes everything that is required to configure part of a system.
+
+33) What is Dockerfile used for?
+A) Docker can build images automatically by reading the instructions from a Dockerfile.
+    All the commands required to build a Docker Image
+
+34) What is Ansible?
+Ansible is mainly used in IT infrastructure to manage or deploy applications to remote nodes
+
+35) what are the tools used for docker networking
+A) For docker networking we generally use kubernets and docker swarm.
+
+36) What is Git Stash?
+
+A) Git Stashing takes your working directory that is, your modified tracked files and staged changes and saves it on a stack of unfinished changes that you can reapply at any time.
+
+
+
+
+
+
+
+
+
+
