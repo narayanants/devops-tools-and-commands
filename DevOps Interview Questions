@@ -51,7 +51,7 @@ A)  ClusterIP
     LoadBalancer
 
 17) How to check RAM Usage in Linux?
-A) free -m
+A) free -g
 
 12) Find the No of CORES in the CPU in Linux?
 A) nproc --all or lscpu
@@ -93,6 +93,7 @@ A)  Maven 2 project
     Join
     Green Balls
     ThinBackup
+    Blue Ocean
 
 26) How will you secure Jenkins?
 A)  Ensure global security is on.
@@ -145,7 +146,20 @@ A) For docker networking we generally use kubernets and docker swarm.
 A) Git Stashing takes your working directory that is, your modified tracked files and staged changes and saves it on a stack of unfinished changes that you can reapply at any time.
 
 
+37) What are the Pros and Cons of Ansible?
+A) 
 
+Pros:
+    Open Source
+    Agent less
+    Improved efficiency , reduce cost
+    Less Maintenance
+    Easy to understand yaml files
+Cons:
+
+    Underdeveloped GUI with limited features
+    Increased focus on orchestration over configuration management
+    SSH communication slows down in scaled environments
 
 
 
