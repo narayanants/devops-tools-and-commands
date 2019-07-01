@@ -11,9 +11,55 @@ A) /proc/pid/limits
 A) netstat -tulpn | grep LISTEN
 
 5) How to check RAM Usage in Linux?
-A) free -m
+A) free -g
 
 6) Find the No of CORES in the CPU in Linux?
 A) nproc --all or lscpu
 
-7) 
+7) How do you locate a file in Linux?
+A) find /home/ubuntu/nodeapp/ -name "*.js"
+
+
+8) What are inode and process id?
+A) inode is the unique name given by the operating system to each file. Similarly, process id is the unique id given to each process.
+
+9) What are daemons?
+A) Daemons are usually used to run services in the background without directly being in control of interactive users
+
+10) What are the process states in Linux?
+A)  Ready
+    Running
+    Blocked or Wait
+    Terminated or Completed
+    Zombie
+
+11) Explain grep command.?
+A) Global Regular Expression Print. Use to find content using GREP.
+
+12) Explain Process Management System Calls in Linux
+A)  fork()
+    exec()
+    wait()
+    exit()
+    getpid()
+    getppid()
+    nice()
+
+13) How to find the difference in two configuration files
+A) diff abc.conf xyz.conf
+
+14) Enlist some Linux networking and troubleshooting commands
+A)  hostname
+    ifconfig
+    netstat
+    traceroute
+    dig
+    nslookup
+    route
+    mtr
+    ifplugstatus
+
+15) What is LILO?
+A) LILO is Linux Loader is a boot loader for Linux. It is used to load Linux into the memory and start the Operating system.
+
+
