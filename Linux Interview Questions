@@ -1,0 +1,19 @@
+1) What is the Unix command to find the pid of running process?
+A) ps -p 3095
+
+2) How to split a file with 1000 lines into 10 files of 100 lines
+A) split -l 1000 test.txt
+
+3) How to find number of open file limit per process?
+A) /proc/pid/limits
+
+4) How to find a port is used in a running process
+A) netstat -tulpn | grep LISTEN
+
+5) How to check RAM Usage in Linux?
+A) free -m
+
+6) Find the No of CORES in the CPU in Linux?
+A) nproc --all or lscpu
+
+7) 
