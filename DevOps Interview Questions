@@ -165,6 +165,9 @@ Cons:
 38) What is the Difference between COPY and ADD File:
 A) COPY takes in a src and destination
    ADD takes into 2 other arguments URL, Extract tar from the source directly into the destination.
+   
+39) List DevOps Tools that you use for Code Analysis and Code Quality?
+A) Sonarqube
 
 
 
