@@ -162,6 +162,10 @@ Cons:
     SSH communication slows down in scaled environments
 
 
+38) What is the Difference between COPY and ADD File:
+A) COPY takes in a src and destination
+   ADD takes into 2 other arguments URL, Extract tar from the source directly into the destination.
+
 
 
 
