@@ -1,0 +1,52 @@
+DevOps Flow:
+============
+
+Source Code Management - Git
+CI - Jenkins
+Build - Gradle
+Code Analysis - Sonarqube
+Build Artifacts - Nexus
+Continuous Deployment - Ansible
+Infrastructure - AWS/Docker/K8s
+Configuration Management - Ansible
+Continuous Testing - Selenium, Apache JMeter
+Continuous Monitoring - Nagios
+
+Priority:
+==========
+
+Ansible
+Docker
+Kubernetes
+Jenkins
+AWS
+
+DevOps Flow:
+============
+
+Source Code Management - Git
+CI - Jenkins
+Build - Gradle
+Code Analysis - Sonarqube
+Build Artifacts - Nexus
+Continuous Deployment - Ansible
+Infrastructure - AWS/Docker/K8s
+Configuration Management - Ansible
+Continuous Testing - Selenium, Apache JMeter
+Continuous Monitoring - Nagios
+
+
+
+
+DevOps Tools Flow:
+==================
+
+Version Control- Git
+Build Tool - Gradle
+Continuous Testing - Selenium
+Configuration Management - Puppet
+Continuous Deployment - Ansible
+Continuous Monitoring - Nagios
+Containers - Docker/K8s
+Cloud - AWS,Azure,GCP
+
