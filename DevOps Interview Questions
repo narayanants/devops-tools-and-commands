@@ -88,6 +88,9 @@ A) git branch -merged
 25) Mention some of the useful plugins in Jenkins.
 A)  Maven 2 project
     Amazon EC2
+    Docker
+    Amazon ECS plugin
+    Digitalocean plugin
     HTML publisher
     Copy artifact
     Join
