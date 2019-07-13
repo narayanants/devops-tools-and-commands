@@ -173,6 +173,32 @@ A) COPY takes in a src and destination
 A) Sonarqube
 
 
+40) What are the jenkins security Best practices?
+
+Security Best Practices:
+========================
+
+* Shield Jenkins from Internet, using firewall rules behind a VPN.
+* You will need to whitelist/Github API address for push requests
+* Security Vunerabilities
+* Keep Jenkins up-to-date
+* Keep plugins up-to-date
+* Configure Authentication and Authorization
+
+Authentication - verifying the identity of the user
+Authorization - Access rights to resources
+
+41) What are the benefits of having Jenkins Slave?
+
+- Reduced Costs
+- Slaves are easily replaceable
+- Respond to sudden changes in build
+- Two solutions for the demo
+
+    - Master node connects to the Slave
+    - Slave node connects to the Master
+
+
 
 
 
