@@ -142,7 +142,7 @@ A) Docker can build images automatically by reading the instructions from a Dock
 Ansible is mainly used in IT infrastructure to manage or deploy applications to remote nodes
 
 35) what are the tools used for docker networking
-A) For docker networking we generally use kubernets and docker swarm.
+A) For docker networking we generally use kubernetes and docker swarm.
 
 36) What is Git Stash?
 
