@@ -198,8 +198,8 @@ Authorization - Access rights to resources
     - Master node connects to the Slave
     - Slave node connects to the Master
 
-
-
-
+42) What is an artifact in DevOps?
+A)  A release is a collection of Artifacts in Devops CI/CD Pipelines.
+    An artifact is a deployable componenet of your application.
 
 
