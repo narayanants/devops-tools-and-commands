@@ -200,6 +200,50 @@ Authorization - Access rights to resources
 
 42) What is an artifact in DevOps?
 A)  A release is a collection of Artifacts in Devops CI/CD Pipelines.
-    An artifact is a deployable componenet of your application.
+    An artifact is a deployable component of your application.
+
+43) What is a pom.xml file in Maven?
+
+A) A POM file is a fundamental unit of work in Maven.
+   Its contains info about the project and the configuration details used by Maven to build the project.
+
+
+44) What is inode and process id?
+
+A) inode is the unique name given by the OS to each file. Process ID is unique id given to each process.
+
+
+45) What are Daemons?
+A) A Daemon is a computer program that runs in the background process to provide functions that might not be available in the base OS.
+
+46) What are the process states in Linux?
+A) 
+    Ready
+    Running
+    Blocked
+    Terminated
+    Zombie
+
+47) What is a tar command?
+A) tar command is used to extract files from an archive
+
+48) Difference between rsync and scp?
+A)
+
+    scp reads source file and copies it to destination
+    rsync also copies files locally over a network but uses a delta transfer algorithm
+
+
+49) How would you schedule a task in linux?
+A) Two commands: cron and at
+
+The cron command is used to repeatedly schedule a task at a specific time.
+The tasks are stored in a cron file
+
+<minute> <hour> <day> <month> <weekday> <command>
+
+50) 
+
+
 
 
