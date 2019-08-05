@@ -64,6 +64,14 @@ CMD:
 	- Docker Runtime Operation
 	- A running image is called a container
 
+COPY:
+
+	- takes in a src and destination
+
+ADD:
+
+	-takes into 2 other arguments URL, Extract tar from the source directly into the destination.
+
 
 
 
