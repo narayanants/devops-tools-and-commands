@@ -1,0 +1,70 @@
+Docker commands:
+================
+
+* docker --version
+* docker --help
+* docker login
+* docker pull ubuntu
+* docker run ubuntu
+* docker build -t MyubuntuImage .   - Customly building image
+* docker container logs
+* docker container kill
+* docker container rm
+* docker container run
+* docker container start
+* docker ps
+* docker ps -a
+* docker push narayanants/imagename
+* docker images
+* docker tag mycustomubuntu narayanants/mycustomubuntu
+* docker push narayanants/mycustomubuntu
+* docker start containerid
+* docker stop containerid
+* docker kill containerid - Forcefully kill container
+* docker rm <container>
+* docker rmi <imageid>
+* docker run --rm -p 3000:3000  --name "MyDemoApp"
+* docker exec -it <containerid> /bin/bash
+* docker commit <containerid> narayanants/mycustomubuntu - Creates a new image of the local container which was edited earlier
+* docker export --output="latest.tar" <containerid>
+* docker import /home/edureka/Downloads/demo.tar
+* docker compose - docker-compose build |  docker-compose up - Build using docker.yaml
+* docker swarm init -advertise-addr 192.168.1.100 
+* docker swarm join
+* docker swarm join-token
+* docker swarm leave
+* docker service ls ps scale stop logs rm
+* docker system prune - Removes all stopped containers from system. 
+
+
+Docker Compose Commands:
+=========================
+
+docker-compose up --build
+docker-compose down
+docker run imagename    =      docker-compose up
+docker build .
+docker run imagename     = docker-compose up --build
+docker build -f Dockerfile .
+docker run -p 3000:3000 -v /app/node_modules -v $(pwd):/app <image_id>
+
+
+
+Difference Between RUN and CMD in Docker:
+===========================================
+
+RUN:
+
+	- Gets execute commands inside the Docker Image
+	- commands are executed once in build time and gets written into the Docker Image as a new layer
+	
+CMD:
+
+	- Define default commands to run when the container starts
+	- Docker Runtime Operation
+	- A running image is called a container
+
+
+
+
+
